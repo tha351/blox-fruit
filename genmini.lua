@@ -66,15 +66,3 @@ Tabs.Misc:AddDropdown("MyDropdown", {
     Current = "Cận Chiến (Melee)", -- Lựa chọn mặc định
     Callback = function(Value)
         print("Bạn đã chọn vũ khí: ", Value)
-    end
-})
-
--- 5. Gửi thông báo nhỏ góc màn hình khi Menu bật thành công
-Fluent:Notify({
-    Title = "Genmini Hub",
-    Content = "Menu của bạn đã khởi chạy thành công!",
-    Duration = 5 -- Hiện trong 5 giây
-})
-
--- Mặc định khi mở lên sẽ chọn sẵn Tab 1
-Window:SelectTab(1)
